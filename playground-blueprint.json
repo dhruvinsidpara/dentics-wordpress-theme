@@ -1,0 +1,22 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/",
+  "preferredVersions": { "php": "8.2", "wp": "latest" },
+  "steps": [
+    {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "git:directory",
+        "url": "https://github.com/dhruvinsidpara/dentics-wordpress-theme",
+        "ref": "main",
+        "path": "theme"
+      },
+      "options": { "activate": true }
+    },
+    {
+      "step": "setSiteOptions",
+      "options": { "blogname": "Dentics Dental Clinic", "blogdescription": "Healthy smiles for the whole family" }
+    },
+    { "step": "login" }
+  ]
+}

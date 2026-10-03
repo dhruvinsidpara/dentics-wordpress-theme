@@ -1,0 +1,9 @@
+{
+  "landingPage": "/",
+  "preferredVersions": { "php": "8.2", "wp": "latest" },
+  "steps": [
+    { "step": "login", "username": "admin", "password": "password" },
+    { "step": "activateTheme", "themeFolderName": "dentics" },
+    { "step": "setSiteOptions", "options": { "blogname": "Dentics Dental Clinic", "blogdescription": "Healthy smiles for the whole family" } }
+  ]
+}

@@ -1,0 +1,8 @@
+server.log
+dentics-theme.zip
+design/
+*.pyc
+__pycache__/
+node_modules/
+PORTFOLIO.md
+static-build/
